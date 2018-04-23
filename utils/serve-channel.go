@@ -5,8 +5,9 @@ import (
 	"log"
 	"net"
 	"runtime/debug"
-	"snail007/proxy/services/kcpcfg"
 	"strconv"
+
+	"github.com/gefire/goproxy/services/kcpcfg"
 
 	kcp "github.com/xtaci/kcp-go"
 )

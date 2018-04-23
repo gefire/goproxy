@@ -7,8 +7,9 @@ import (
 	"log"
 	"net"
 	"runtime/debug"
-	"snail007/proxy/utils"
 	"time"
+
+	"github.com/gefire/goproxy/utils"
 
 	"strconv"
 )

@@ -3,9 +3,10 @@ package socks
 import (
 	"fmt"
 	"net"
-	"snail007/proxy/utils"
 	"strings"
 	"time"
+
+	"github.com/gefire/goproxy/utils"
 )
 
 const (

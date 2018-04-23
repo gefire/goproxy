@@ -8,10 +8,11 @@ import (
 	"math/rand"
 	"net"
 	"runtime/debug"
-	"snail007/proxy/utils"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/gefire/goproxy/utils"
 
 	"github.com/golang/snappy"
 	"github.com/xtaci/smux"

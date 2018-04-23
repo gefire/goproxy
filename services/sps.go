@@ -9,11 +9,12 @@ import (
 	"log"
 	"net"
 	"runtime/debug"
-	"snail007/proxy/utils"
-	"snail007/proxy/utils/socks"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/gefire/goproxy/utils"
+	"github.com/gefire/goproxy/utils/socks"
 )
 
 type SPS struct {

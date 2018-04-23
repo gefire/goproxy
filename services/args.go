@@ -1,7 +1,7 @@
 package services
 
 import (
-	"snail007/proxy/services/kcpcfg"
+	"github.com/gefire/goproxy/services/kcpcfg"
 
 	"golang.org/x/crypto/ssh"
 )

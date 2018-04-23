@@ -7,10 +7,11 @@ import (
 	"log"
 	"os"
 	"os/exec"
-	"snail007/proxy/services"
-	"snail007/proxy/services/kcpcfg"
-	"snail007/proxy/utils"
 	"time"
+
+	"github.com/gefire/goproxy/services"
+	"github.com/gefire/goproxy/services/kcpcfg"
+	"github.com/gefire/goproxy/utils"
 
 	kcp "github.com/xtaci/kcp-go"
 	"golang.org/x/crypto/pbkdf2"

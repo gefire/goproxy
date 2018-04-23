@@ -18,14 +18,16 @@ import (
 	"net/http"
 	"os"
 	"os/exec"
-	"snail007/proxy/services/kcpcfg"
+
+	"github.com/gefire/goproxy/services/kcpcfg"
 
 	"golang.org/x/crypto/pbkdf2"
 
-	"snail007/proxy/utils/id"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/gefire/goproxy/utils/id"
 
 	kcp "github.com/xtaci/kcp-go"
 )

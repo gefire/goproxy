@@ -6,8 +6,9 @@ import (
 	"io"
 	"log"
 	"net"
-	"snail007/proxy/utils"
 	"time"
+
+	"github.com/gefire/goproxy/utils"
 )
 
 type TunnelClient struct {

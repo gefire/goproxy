@@ -12,11 +12,12 @@ import (
 	"log"
 	"net"
 	"net/url"
-	"snail007/proxy/services/kcpcfg"
-	"snail007/proxy/utils/sni"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/gefire/goproxy/services/kcpcfg"
+	"github.com/gefire/goproxy/utils/sni"
 
 	"github.com/golang/snappy"
 	"github.com/miekg/dns"

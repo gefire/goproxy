@@ -7,10 +7,11 @@ import (
 	"log"
 	"net"
 	"runtime/debug"
-	"snail007/proxy/utils"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/gefire/goproxy/utils"
 
 	"golang.org/x/crypto/ssh"
 )

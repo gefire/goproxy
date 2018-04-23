@@ -7,11 +7,12 @@ import (
 	"log"
 	"net"
 	"runtime/debug"
-	"snail007/proxy/utils"
-	"snail007/proxy/utils/aes"
-	"snail007/proxy/utils/socks"
 	"strings"
 	"time"
+
+	"github.com/gefire/goproxy/utils"
+	"github.com/gefire/goproxy/utils/aes"
+	"github.com/gefire/goproxy/utils/socks"
 
 	"golang.org/x/crypto/ssh"
 )

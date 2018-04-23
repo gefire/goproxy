@@ -4,9 +4,10 @@ import (
 	"bufio"
 	"log"
 	"net"
-	"snail007/proxy/utils"
 	"strconv"
 	"time"
+
+	"github.com/gefire/goproxy/utils"
 )
 
 type ServerConn struct {

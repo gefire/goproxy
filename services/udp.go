@@ -8,11 +8,12 @@ import (
 	"log"
 	"net"
 	"runtime/debug"
-	"snail007/proxy/services/kcpcfg"
-	"snail007/proxy/utils"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/gefire/goproxy/services/kcpcfg"
+	"github.com/gefire/goproxy/utils"
 )
 
 type UDP struct {

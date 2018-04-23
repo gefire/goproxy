@@ -6,11 +6,12 @@ import (
 	"log"
 	"math/rand"
 	"net"
-	"snail007/proxy/utils"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/gefire/goproxy/utils"
 
 	"github.com/xtaci/smux"
 )
